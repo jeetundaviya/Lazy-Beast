@@ -1,0 +1,113 @@
+ _______________________________________________________
+/                                                       \
+|                                                        |
+|            ██░ ██ ▓█████  ██▓     ██▓███  	         |
+|           ▓██░ ██▒▓█   ▀ ▓██▒    ▓██░  ██▒             |
+|           ▒██▀▀██░▒███   ▒██░    ▓██░ ██▓▒             |
+|           ░▓█ ░██ ▒▓█  ▄ ▒██░    ▒██▄█▓▒ ▒             |
+|           ░▓█▒░██▓░▒████▒░██████▒▒██▒ ░  ░             |
+|            ▒ ░░▒░▒░░ ▒░ ░░ ▒░▓  ░▒▓▒░ ░  ░             |
+|           ▒ ░▒░ ░ ░ ░  ░░ ░ ▒  ░░▒ ░                   |
+|            ░  ░░ ░   ░     ░ ░   ░░                    |
+|            ░  ░  ░   ░  ░    ░  ░                      |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 0. back | ->This command is used to                  |
+| come back to main Console.                             |
+|                                                        |
+|   eg. back OR "0"                                      |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 1. clear or c | ->This command is used to            |
+| clear to any Console.                                  |
+|                                                        |
+|   eg. clear OR "1" OR "c"                              |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 2. open | ->This command is used to                  |
+| open program.                                          |
+|                                                        |
+|   NOTE :- Program will open in new window.And          |
+|           "open -m" will display menu for opening      |
+|           programs with shortcuts                      |
+|                                                        |
+|   eg. open notpad xyz.txt OR o 1 OR "2 notepad.exe"    |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 3. close | ->This command is used to                 |
+| exit from any Console or to close any on.              |
+| going console or program.                              |
+|                                                        |
+|  NOTE:- Typing 'close -all' will open all              |
+|         programs running simalar process.              |
+|                                                        |
+|    eg. close PyCmd OR close OR "3" OR "3 SysCmd"       |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 4. help or h | ->This command is used to             |
+| have excess to Help Console.                           |
+|                                                        |
+|   eg. help OR "4" OR "h"                               |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 5. modify     | ->This command is used to            |
+| modify the colour, title and prompt Console.           |
+|                                                        |
+|   eg. modify colour OR "5 title"                       |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+|  + 6. syscmd | ->This command is used                  |
+| to have excess to System Console or to                 |
+| run any sys commands.                                  |
+|                                                        |
+|  NOTE:- Typing 'SysCmd -n' will open                   |
+|         SysCmd program in a new window.                |
+|                                                        |
+|                                                        |
+|   eg. syscmd OR syscmd ping www.google.com OR "6"      |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 7. pycmd | ->This command is used to                 |
+| have excess to Python Console.                         |
+|                                                        |
+|   NOTE :- Program will open in new window.             |
+|                                                        |
+|   eg. pycmd OR "7"                                     |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 8. archive or arc | ->This command is used to        |
+| make archive of files and folders in                   |
+| different fromate like 7z,zip,rar,etc.                 |
+|                                                        |
+|  NOTE:- Only typing 'archive' will open                |
+|         7z File-Manager program in a new window.       |
+|                                                        |
+|   eg. arc <extension> <output loc> <input loc> OR "8"  |
+|                                                        |
+| +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
+|                                                        |
+| + 9. sysnet or net | ->This command is used to         |
+| execute networking commands and display in console.    |
+|                                                        |
+|   NOTE :- Program will open in new window.And          |
+|           "sysnet -m" will display menu for opening    |
+|           programs with shortcuts                      |
+|                                                        |
+|   eg. sysnet -m OR "9 <Sub command>"                   |
+|                                                        |
+\________________________________________________________/
+ --------------------------------------------------------
+        \   ^__^
+         \  (0O)\_______
+            (__)\ HELP! )\/\
+                ||----w |
+                ||     ||
