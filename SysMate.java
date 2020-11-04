@@ -139,15 +139,17 @@ public class SysMate
 								prompt = ">>>";
 								Prompt.ModifiedPrompt = ">>>"; //it will change the previous modification of prompt.
 								new ProcessBuilder("cmd","/c","title Lazy Beast").inheritIO().start().waitFor(); //title will  be Lazy Beast 
-								//color.ModifyColors();
-								new ProcessBuilder("cmd","/c","color 07").inheritIO().start().waitFor(); //black background and white forground
+								color.StopCoolMode(color.StopCoolModePID); //to stop the cool mode if running
+								color.DefaultColour();
+
+								//new ProcessBuilder("cmd","/c","color 07").inheritIO().start().waitFor(); //black background and white forground
 
 							}
 					}
 
 					//.......................................................................................................................................................
 
-					if(cmd.contains("syscmd") || cmd.startsWith("6"))       // For Starting SysCmd or running SysCmd commands
+					if(cmd.startsWith("syscmd") || cmd.startsWith("6"))       // For Starting SysCmd or running SysCmd commands
 					{
 						if(cmd.equals("syscmd") || cmd.equals("6"))
 						{
