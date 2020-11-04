@@ -16,7 +16,11 @@ Script' which is developed for performing penetration testing
 and hacking in an easier way. But it is strictly platform dependent [Linux]
 The GitHub link for this project is as below :- https://github.com/arismelachroinos/lscript
 Hence if you want to try something like it for Windows then
-you can try my project. GitHub link for my project [Lazy Beast] is as below :- https://github.com/jeetundaviya/Lazy-Beast
+you can try my project. 
+
+# Youtube Tutorial
+
+https://www.youtube.com/watch?v=lptziIJFCDk
 
 # Why should anyone care about it ?
 
@@ -59,6 +63,32 @@ Software :-
 
 # Screenshots
 
+
+![Slide19](https://user-images.githubusercontent.com/56348104/98168033-017f7480-1f10-11eb-8f62-e0ad1fa0bd2b.jpg)
+![Slide20](https://user-images.githubusercontent.com/56348104/98168040-02b0a180-1f10-11eb-8f92-190bd76554de.jpg)
+![Slide21](https://user-images.githubusercontent.com/56348104/98168041-03493800-1f10-11eb-9379-f123f0cf42d2.jpg)
+![Slide22](https://user-images.githubusercontent.com/56348104/98168045-03493800-1f10-11eb-8c59-9b252444991e.jpg)
+![Slide23](https://user-images.githubusercontent.com/56348104/98168046-03e1ce80-1f10-11eb-8feb-a8b9bf353e1f.jpg)
+![Slide24](https://user-images.githubusercontent.com/56348104/98168048-047a6500-1f10-11eb-943c-b446b8391f32.jpg)
+![Slide25](https://user-images.githubusercontent.com/56348104/98168050-0512fb80-1f10-11eb-9a51-91717534174f.jpg)
+![Slide26](https://user-images.githubusercontent.com/56348104/98168052-05ab9200-1f10-11eb-8912-cf364ec06321.jpg)
+![Slide27](https://user-images.githubusercontent.com/56348104/98168053-06442880-1f10-11eb-81c3-9594b2bf5a58.jpg)
+![Slide28](https://user-images.githubusercontent.com/56348104/98168058-06dcbf00-1f10-11eb-8fa5-9023ec48579d.jpg)
+![Slide29](https://user-images.githubusercontent.com/56348104/98168060-07755580-1f10-11eb-96ff-c54f831d5a93.jpg)
+![Slide30](https://user-images.githubusercontent.com/56348104/98168062-080dec00-1f10-11eb-9bb1-661a93f5d673.jpg)
+![Slide31](https://user-images.githubusercontent.com/56348104/98168063-08a68280-1f10-11eb-9536-d0b239d854a1.jpg)
+![Slide32](https://user-images.githubusercontent.com/56348104/98168067-08a68280-1f10-11eb-83d8-8e0aaab2a021.jpg)
+![Slide33](https://user-images.githubusercontent.com/56348104/98168070-093f1900-1f10-11eb-99f8-1b2a5e2e630c.jpg)
+![Slide34](https://user-images.githubusercontent.com/56348104/98168072-09d7af80-1f10-11eb-8ced-8485933ba7b2.jpg)
+![Slide35](https://user-images.githubusercontent.com/56348104/98168073-0a704600-1f10-11eb-811e-1187be40893b.jpg)
+![Slide36](https://user-images.githubusercontent.com/56348104/98168075-0b08dc80-1f10-11eb-801c-baa2bf884119.jpg)
+![Slide37](https://user-images.githubusercontent.com/56348104/98168077-0ba17300-1f10-11eb-87fd-d8b60d6503d6.jpg)
+![Slide38](https://user-images.githubusercontent.com/56348104/98168081-0c3a0980-1f10-11eb-929e-41db8115bcf7.jpg)
+![Slide39](https://user-images.githubusercontent.com/56348104/98168086-0d6b3680-1f10-11eb-8691-be8de330c166.jpg)
+![Slide40](https://user-images.githubusercontent.com/56348104/98168091-0e9c6380-1f10-11eb-932f-fa2844df7442.jpg)
+![Slide41](https://user-images.githubusercontent.com/56348104/98168094-0fcd9080-1f10-11eb-8437-0ec3b1942943.jpg)
+![Slide42](https://user-images.githubusercontent.com/56348104/98168096-10662700-1f10-11eb-8445-7fd5eb3671c9.jpg)
+![Slide43](https://user-images.githubusercontent.com/56348104/98168100-10febd80-1f10-11eb-892f-96ad484101d2.jpg)
 
 
 # Commands and its usage
