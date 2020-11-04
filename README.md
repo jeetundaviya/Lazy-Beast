@@ -57,6 +57,10 @@ Software :-
 1. CMD(Command Prompt)
 2. JRE (Java Runtime Environment)
 
+# Screenshots
+
+
+
 # Commands and its usage
 
  '0' OR 'back'
