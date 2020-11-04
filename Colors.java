@@ -4,11 +4,13 @@ import java.io.*;
 import SysMate.*;
 class Colors extends SysMate
 {
-	private String color_cmd="";
+	public String color_cmd="";
 	private String colors [] = {"A","B","C","D","E","F","1","2","3","4","5","6","7","8","9"};
 	private String color = "07";
 	private String color1="";
 	private	String color2="";
+	public static long StopCoolModePID = 0;
+
 	public class COOL_MODE extends Thread
 		{
 		public int mode = 0;
@@ -74,9 +76,22 @@ class Colors extends SysMate
 		}
 					  
 	protected static String ColorsConsoleWelcomeLoc = "C:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\ColorsConsoleWelcome.txt";
+	public COOL_MODE cool_obj = new COOL_MODE();
+	public void StopCoolMode(long stoppid)
+	{
+		//Give you set of Threads
+		Set<Thread> setOfThread = Thread.getAllStackTraces().keySet();
+
+		//Iterate over set to find yours
+		for(Thread thread : setOfThread){
+		    if(thread.getId()==stoppid){
+		        thread.stop();
+		    }
+		}
+	}
 	public void ModifyColors()throws Exception
 	{
-		COOL_MODE cool_obj = new COOL_MODE(); //for excessing cool mode options
+		 //for excessing cool mode options
 
 		Logs log = new Logs();
 		log.login("Colors Console");
@@ -119,31 +134,36 @@ class Colors extends SysMate
 							if(color_cmd.equals("default")||color_cmd.equals("use 1"))
 							{
 								cool_obj.stop();
-								DefaultColours();
+								DefaultColour();
 							}
 
 							if(color_cmd.equals("random_forground")||color_cmd.equals("use 3"))
 							{
+								cool_obj.stop();
 								RandomizeColour(3);
 							}
 
 							if(color_cmd.equals("swap")||color_cmd.equals("use 2"))
 							{
+								cool_obj.stop();
 								RandomizeColour(4);
 							}
 
 							if(color_cmd.equals("random_forground_with_black_background")||color_cmd.equals("use 4"))
 							{
+								cool_obj.stop();
 								RandomizeColour(1);
 							}
 
 							if(color_cmd.equals("random_background")||color_cmd.equals("use 5"))
 							{
+								cool_obj.stop();
 								RandomizeColour(2);
 							}
 
 							if(color_cmd.equals("random")||color_cmd.equals("use 6"))
 							{
+								cool_obj.stop();
 								RandomizeColour(5);
 							}
 
@@ -151,6 +171,8 @@ class Colors extends SysMate
 							{
 								cool_obj.stop();
 								cool_obj = new COOL_MODE();
+								StopCoolModePID = cool_obj.getId();
+								//System.out.println(StopCoolModePID);
 								cool_obj.mode = 0;
 								cool_obj.start();
 								
@@ -160,6 +182,7 @@ class Colors extends SysMate
 							{
 								cool_obj.stop();
 								cool_obj = new COOL_MODE();
+								StopCoolModePID = cool_obj.getId();
 								cool_obj.mode = 1;
 								cool_obj.start();
 							}
@@ -168,6 +191,7 @@ class Colors extends SysMate
 							{
 								cool_obj.stop();
 								cool_obj = new COOL_MODE();
+								StopCoolModePID = cool_obj.getId();
 								cool_obj.mode = 2;
 								cool_obj.start();
 							}
@@ -236,7 +260,7 @@ class Colors extends SysMate
 
 	}
 
-		protected void DefaultColours()
+		protected void DefaultColour()
 			{
 			try
 			{

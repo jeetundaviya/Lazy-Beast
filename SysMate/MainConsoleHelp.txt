@@ -39,7 +39,7 @@
 | +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+- |
 |                                                        |
 | + 3. close | ->This command is used to                 |
-| exit from any Console or to close any on.              |
+| exit from any Console or to close any on-              |
 | going console or program.                              |
 |                                                        |
 |  NOTE:- Typing 'close -all' will open all              |
@@ -58,6 +58,10 @@
 |                                                        |
 | + 5. modify     | ->This command is used to            |
 | modify the colour, title and prompt Console.           |
+|                                                        |
+| NOTE:- Typing 'modify off' all modification            |
+|        will be disabled and it will do the             |
+|        the default color, title and prompt.            |
 |                                                        |
 |   eg. modify colour OR "5 title"                       |
 |                                                        |
@@ -86,7 +90,7 @@
 |                                                        |
 | + 8. archive or arc | ->This command is used to        |
 | make archive of files and folders in                   |
-| different fromate like 7z,zip,rar,etc.                 |
+| different fromat like 7z,zip,rar,etc.                  |
 |                                                        |
 |  NOTE:- Only typing 'archive' will open                |
 |         7z File-Manager program in a new window.       |
