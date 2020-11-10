@@ -2,7 +2,7 @@ package SysMate;
 import SysMate.*;
 public class Open
 {
-	protected static String OpenMenuLoc = "c:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\OpenMenu.txt";
+	protected static String OpenMenuLoc = "c:\\Users\\jeetu\\Desktop\\Lazy-Beast\\SysMate\\OpenMenu.txt";
 	public Open(String Program)throws Exception
 		{
 			if(Program.equals("-m"))

@@ -17,14 +17,14 @@ public class SysMate
 
 	//All paths and locations for loading files 
 	{
-	MainConsoleWelcomeLoc = "C:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\MainConsoleWelcome.txt"; 
-	IntroDesignDirLoc = "C:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\Intro\\";
+	MainConsoleWelcomeLoc = "C:\\Users\\jeetu\\Desktop\\Lazy-Beast\\SysMate\\MainConsoleWelcome.txt"; 
+	IntroDesignDirLoc = "C:\\Users\\jeetu\\Desktop\\Lazy-Beast\\SysMate\\Intro\\";
 
 	//You can Change Paths when required..........
 	Colors.ColorsConsoleWelcomeLoc = Colors.ColorsConsoleWelcomeLoc ;
 	MainConsoleHelp.MainConsoleHelpLoc = MainConsoleHelp.MainConsoleHelpLoc;
 	Title.TitleConsoleWelcomeLoc = Title.TitleConsoleWelcomeLoc;
-	Logs.OutputLoc = "C:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\Logs\\"+"Logs"+".txt";
+	Logs.OutputLoc = "C:\\Users\\jeetu\\Desktop\\Lazy-Beast\\SysMate\\Logs\\"+"Logs"+".txt";
 	Open.OpenMenuLoc = Open.OpenMenuLoc;
 	}
 

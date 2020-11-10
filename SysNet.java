@@ -7,7 +7,7 @@ public class SysNet extends SysMate
 {
 	public static String sysnet_cmd = "";
 
-	protected static String SysNetMenuLoc = "c:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\SysNetMenu.txt";
+	protected static String SysNetMenuLoc = "c:\\Users\\jeetu\\Desktop\\Lazy-Beast\\SysMate\\SysNetMenu.txt";
 
 	public void runPB(String kw) throws Exception
 	{

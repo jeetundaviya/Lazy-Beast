@@ -1,7 +1,7 @@
 package SysMate;
 public class MainConsoleHelp
 {
-	protected static String MainConsoleHelpLoc =  "C:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\MainConsoleHelp.txt";
+	protected static String MainConsoleHelpLoc =  "C:\\Users\\jeetu\\Desktop\\Lazy-Beast\\SysMate\\MainConsoleHelp.txt";
 	public MainConsoleHelp()
 	{
 					try{

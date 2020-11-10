@@ -3,7 +3,7 @@ package SysMate;
 public class Logs
 {
 	
-	public static String OutputLoc ="C:\\Users\\jeetu\\Desktop\\SysMate\\SysMate\\Logs\\Logs.txt";
+	public static String OutputLoc ="C:\\Users\\jeetu\\Desktop\\Lazy-Beast\\SysMate\\Logs\\Logs.txt";
 	protected String CMD = "";
 	public Logs()throws Exception 
 	{
