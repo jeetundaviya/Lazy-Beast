@@ -2,7 +2,7 @@
 
 # Introduction
 
-The project of the name is 'Lazy Beast' which explains pretty
+The name of the project is 'Lazy Beast' which explains pretty
 much everything from its name that it is the software which is
 designed for lazy users who don’t want to remember the
 commands of the CMD (Command Prompt) and can still do
